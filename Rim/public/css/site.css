@@ -1,0 +1,60 @@
+.board {
+  float: left;
+  width: 14em;
+  min-height: 300px;
+  max-height: 80vh;
+  overflow: auto;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 0;
+}
+
+.board .heading {
+  margin: 0;
+  background: darkgray;
+  color: white;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.board .item {
+  margin: 10px;
+  border: 1px solid #edf6f8;
+  padding: 10px;
+  border-radius: 5px;
+  background: #edf6f8;
+}
+
+.board.todo {
+  border: 1px solid #666666;
+}
+
+.board.todo .heading {
+  background: yellow;
+  color: black;
+}
+
+.board.bugs {
+  border: 1px solid #777777;
+}
+
+.board.bugs .heading {
+  background: red;
+}
+
+.board.completed {
+  border: 1px solid #444444;
+}
+
+.board.completed .heading {
+  background: green;
+}
+
+.board.progress {
+  border: 1px solid #555555;
+}
+
+.board.progress .heading {
+  background: blue;
+}
+/*# sourceMappingURL=site.css.map */
